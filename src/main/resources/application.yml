@@ -1,0 +1,7 @@
+server:
+  port: 8081
+
+security:
+  user.password: password
+  oauth2:
+    resource.userInfoUri: http://localhost:8080/me
